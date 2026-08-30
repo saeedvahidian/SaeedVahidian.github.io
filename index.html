@@ -7,13 +7,13 @@
   <title>Saeed Vahidian | Oklahoma State University</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="ang-style.css">
 </head>
 <body>
   <header class="site-header">
     <div class="container nav-wrap">
-      <a class="brand" href="#about"><span class="brand-mark">S.</span> Vahidian</a>
+      <a class="brand" href="#about">Saeed Vahidian</a>
       <button class="menu-button" type="button" aria-expanded="false" aria-controls="site-navigation">Menu</button>
       <nav class="site-nav" id="site-navigation" aria-label="Main navigation">
         <a href="#about">About</a><a href="#news">News</a><a href="#research">Research</a>
@@ -23,16 +23,10 @@
     </div>
   </header>
 
-  <main>
+  <main class="page-container">
     <section class="container hero" id="about">
       <div class="profile">
         <img class="portrait" src="figures/Me.jpg" alt="Portrait of Dr. Saeed Vahidian">
-        <div class="profile-links">
-          <a href="https://scholar.google.com/citations?hl=en&user=8Jd1aUEAAAAJ" target="_blank" rel="noopener">Google Scholar</a>
-          <a href="https://www.linkedin.com/in/saeed-vahidian-95692057/" target="_blank" rel="noopener">LinkedIn</a>
-          <a href="https://github.com/saeedvahidian" target="_blank" rel="noopener">GitHub</a>
-          <a href="mailto:saeed.vahidian@okstate.edu">Email</a>
-        </div>
       </div>
       <div class="bio">
         <p class="eyebrow">Generative and Multimodal Intelligence</p>
@@ -41,12 +35,18 @@
         <p>Dr. Saeed Vahidian is an Assistant Professor in the School of Electrical and Computer Engineering at Oklahoma State University. Before joining OSU, he completed his postdoctoral research at Duke University, where he worked with <a href="https://ece.duke.edu/faculty/yiran-chen" target="_blank" rel="noopener">Prof. Yiran Chen</a>, Director of the NSF AI Institute for Edge Computing (Athena).</p>
         <p>He received his Ph.D. in Electrical and Computer Engineering from the University of California San Diego under the supervision of <a href="https://jacobsschool.ucsd.edu/people/profile/bill-lin" target="_blank" rel="noopener">Prof. Bill Lin</a>.</p>
         <p>His research lies at the intersection of <strong>multimodal learning, large language models, generative AI, agentic AI, synthetic data, and robust learning</strong>. He develops reliable and efficient learning systems that connect foundational AI research with real-world applications.</p>
-        <div class="opening-callout">
-          <strong>Two fully funded Ph.D. positions are available.</strong>
-          <p>I am recruiting students to work on multimodal learning, LLMs, generative AI, and agentic AI. <a href="#openings">View application details →</a></p>
+        <p class="hero-opening"><strong>Openings:</strong> I am recruiting two fully funded Ph.D. students to work on multimodal learning, LLMs, generative AI, and agentic AI. Please email <a href="mailto:saeed.vahidian@okstate.edu">saeed.vahidian@okstate.edu</a> with your CV and transcripts attached.</p>
+        <div class="profile-links" aria-label="Professional profiles">
+          <a href="mailto:saeed.vahidian@okstate.edu" title="OSU Email" aria-label="OSU Email"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg></a>
+          <a href="mailto:saeed.vahidian1@gmail.com" title="Permanent Email" aria-label="Permanent Gmail"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg></a>
+          <a href="https://scholar.google.com/citations?hl=en&user=8Jd1aUEAAAAJ" target="_blank" rel="noopener" title="Google Scholar" aria-label="Google Scholar"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 24a7 7 0 1 1 0-14 7 7 0 0 1 0 14zm0-2a5 5 0 1 0 0-10 5 5 0 0 0 0 10z"/><path d="M12 11.5V18" stroke="white" stroke-width="1.5"/><circle cx="12" cy="9" r="1.5" fill="white"/><path d="m0 9.5 12-7 12 7"/><path d="M21 9.5v7"/></svg></a>
+          <a href="https://www.linkedin.com/in/saeed-vahidian-95692057/" target="_blank" rel="noopener" title="LinkedIn" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.5 2h-17A1.5 1.5 0 002 3.5v17A1.5 1.5 0 003.5 22h17a1.5 1.5 0 001.5-1.5v-17A1.5 1.5 0 0020.5 2zM8 19H5v-9h3zM6.5 8.25A1.75 1.75 0 118.3 6.5a1.78 1.78 0 01-1.8 1.75zM19 19h-3v-4.74c0-1.42-.6-1.93-1.38-1.93A1.74 1.74 0 0013 14.19V19h-3v-9h2.9v1.3a3.11 3.11 0 012.7-1.4c1.55 0 3.36.86 3.36 3.66z"/></svg></a>
+          <a href="https://github.com/saeedvahidian" target="_blank" rel="noopener" title="GitHub" aria-label="GitHub"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg></a>
         </div>
       </div>
     </section>
+
+    <div class="recruitment"><p><strong>Openings:</strong> Two fully funded Ph.D. positions are available in multimodal learning, large language models, generative AI, and agentic AI. <a href="#openings">View application details.</a></p></div>
 
     <section class="section" id="news"><div class="container">
       <div class="section-heading"><h2>News</h2></div>
@@ -73,10 +73,10 @@
 
     <section class="section" id="awards"><div class="container">
       <div class="section-heading"><h2>Awards &amp; Highlights</h2></div>
-      <div class="award-grid">
-        <article class="info-card"><h3>Best Paper Award</h3><p>AAAI Spring Symposium, 2024.</p></article>
-        <article class="info-card"><h3>CVPR Workshop Leadership</h3><p>Organizer and Chair, Dataset Distillation for Computer Vision Workshop, CVPR 2024.</p></article>
-      </div>
+      <ul class="awards-list">
+        <li><span class="award-icon">🏆</span><span><strong>Best Paper Award, AAAI Spring Symposium</strong> (2024)</span></li>
+        <li><span class="award-icon">🏆</span><span><strong>Organizer and Chair, Dataset Distillation for Computer Vision Workshop, CVPR</strong> (2024)</span></li>
+      </ul>
     </div></section>
 
     <section class="section" id="publications"><div class="container">
@@ -85,9 +85,14 @@
         <div class="filter-buttons" role="group" aria-label="Filter publications">
           <button class="filter-button active" type="button" data-filter="selected">Selected</button>
           <button class="filter-button" type="button" data-filter="all">All</button>
+          <button class="filter-button" type="button" data-filter="2026">2026</button>
+          <button class="filter-button" type="button" data-filter="2025">2025</button>
+          <button class="filter-button" type="button" data-filter="2024">2024</button>
+          <button class="filter-button" type="button" data-filter="2023">2023</button>
+          <button class="filter-button" type="button" data-filter="2021">2021</button>
+          <button class="filter-button" type="button" data-filter="2020">2020</button>
         </div>
       </div>
-      <p class="section-intro">For the most current record, visit my <a href="https://scholar.google.com/citations?hl=en&user=8Jd1aUEAAAAJ">Google Scholar profile</a>.</p>
       <div class="publication-list">
         <article class="publication" data-selected="true"><img class="publication-image" src="figures/CoreInfer.png" alt="CoreInfer overview"><div><h3>CoreInfer: Accelerating Large Language Model Inference with Semantics-Inspired Adaptive Sparse Activation</h3><p class="authors">Qinsi Wang, <strong>Saeed Vahidian</strong>, Hancheng Ye, Jianyang Gu, Jianyi Zhang, Yiran Chen</p><p class="venue">ICML 2026</p><p class="paper-links"><a href="https://wangqinsi1.github.io/coreinfer_page">Paper</a><a href="https://github.com/wangqinsi1/CoreInfer">Code</a></p></div></article>
         <article class="publication" data-selected="true"><img class="publication-image" src="figures/robustdd.png" alt="Group robust dataset distillation overview"><div><h3>Group Distributionally Robust Dataset Distillation with Risk Minimization</h3><p class="authors"><strong>Saeed Vahidian</strong>, Mingyu Wang, Jianyang Gu, Vyacheslav Kungurtsev, Wei Jiang, Yiran Chen</p><p class="venue">ICLR 2025</p><p class="paper-links"><a href="https://arxiv.org/abs/2402.04676">Paper</a><a href="https://github.com/SaeedVahidian/Group-Robust-Dataset-Distillation">Code</a></p></div></article>
@@ -134,7 +139,7 @@
     </div></section>
   </main>
 
-  <footer class="site-footer"><div class="container footer-inner"><span>© 2026 Saeed Vahidian</span><span>School of Electrical and Computer Engineering · Oklahoma State University</span></div></footer>
-  <script src="site.js"></script>
+  <footer class="site-footer"><div class="container footer-inner"><span>© 2026 Saeed Vahidian. All rights reserved.</span></div></footer>
+  <script src="ang-site.js"></script>
 </body>
 </html>
