@@ -29,7 +29,7 @@ li { margin-bottom: .35rem; }
 .brand { font-weight: 700; font-size: 1.15rem; color: var(--text); }
 .brand:hover { text-decoration: none; }
 .brand-mark { display: none; }
-.site-nav { display: flex; gap: 1.25rem; align-items: center; }
+.site-nav { display: flex; gap: 1rem; align-items: center; }
 .site-nav a { color: var(--text-muted); font-size: .85rem; font-weight: 500; transition: color .15s; }
 .site-nav a:hover, .site-nav a.active { color: var(--accent); text-decoration: none; }
 .menu-button { display: none; background: none; border: none; font-size: 1.4rem; cursor: pointer; font-family: inherit; }
@@ -65,7 +65,7 @@ li { margin-bottom: .35rem; }
 .research-item[open] summary::after { transform: rotate(45deg); }
 .research-item p { margin: 0; padding: .5rem 1rem 1rem; color: var(--text); }
 .collapsible-body { max-height: 0; overflow: hidden; transition: max-height .3s ease; padding: 0 1rem; }
-.collapsible.open .collapsible-body { max-height: 500px; padding: .5rem 1rem 1rem; }
+.collapsible.open .collapsible-body, .collapsible[open] .collapsible-body { max-height: 1200px; padding: .5rem 1rem 1rem; }
 .collapsible-icon { font-size: 1.2rem; transition: transform .2s; }
 .collapsible.open .collapsible-icon { transform: rotate(45deg); }
 
@@ -93,6 +93,15 @@ li { margin-bottom: .35rem; }
 .paper-links a { margin-right: .75rem; }
 .paper-links a + a::before { content: none; }
 .pub-abbr { display: inline-block; background: var(--accent); color: #fff; font-size: .7rem; font-weight: 600; padding: .1rem .4rem; border-radius: 3px; margin-right: .35rem; vertical-align: middle; }
+.full-publications { margin-top: 1.5rem; border: 1px solid var(--border); border-radius: var(--radius); }
+.full-publications summary { padding: .75rem 1rem; cursor: pointer; font-weight: 600; }
+.full-publications summary:hover { background: var(--accent-light); }
+.full-publications h3 { margin: 1rem 1rem .5rem; }
+.full-publications ul { margin: 0 1rem 1.25rem; }
+.full-publications li { margin-bottom: .55rem; }
+.cv-list h3 { margin-top: .5rem; }
+.cv-list p { margin-bottom: .75rem; }
+.talks-list { padding-left: 1.25rem; }
 
 .openings-panel { display: block; padding: 1rem; background: var(--accent-light); border-radius: var(--radius); }
 .openings-panel > div + div { margin-top: 1rem; }
