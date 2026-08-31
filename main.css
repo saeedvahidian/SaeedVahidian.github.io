@@ -85,6 +85,7 @@ li { margin-bottom: .35rem; }
 .publication { display: flex; gap: 1rem; align-items: flex-start; margin-bottom: 1.5rem; padding: 0; border: 0; }
 .publication[hidden] { display: none; }
 .publication-image { width: 180px; height: 120px; flex-shrink: 0; object-fit: cover; border-radius: var(--radius); background: #f0f0f0; border: 0; }
+.publication-placeholder { display: flex; align-items: center; justify-content: center; background: var(--accent-light); color: var(--accent); font-size: 1.25rem; font-weight: 700; letter-spacing: .08em; }
 .publication > div { flex: 1; }
 .publication h3 { font-weight: 600; margin-bottom: .15rem; font-size: 1rem; color: var(--text); }
 .authors { font-size: .85rem; color: var(--text-muted); margin-bottom: .15rem; }
@@ -102,6 +103,11 @@ li { margin-bottom: .35rem; }
 .cv-list h3 { margin-top: .5rem; }
 .cv-list p { margin-bottom: .75rem; }
 .talks-list { padding-left: 1.25rem; }
+
+.patent-card { display: flex; gap: 1.5rem; align-items: flex-start; border: 1px solid var(--border); border-radius: var(--radius); padding: 1.25rem; }
+.patent-card img { width: 180px; height: 100px; object-fit: contain; flex-shrink: 0; }
+.patent-card h3 { margin-top: .55rem; }
+.patent-card p { margin-bottom: .35rem; }
 
 .openings-panel { display: block; padding: 1rem; background: var(--accent-light); border-radius: var(--radius); }
 .openings-panel > div + div { margin-top: 1rem; }
@@ -122,6 +128,9 @@ li { margin-bottom: .35rem; }
   .site-nav.open { display: flex; }
   .publication { flex-direction: column; }
   .publication-image { width: 100%; height: auto; max-height: 160px; object-fit: contain; }
+  .publication-placeholder { min-height: 120px; }
+  .patent-card { flex-direction: column; }
+  .patent-card img { width: 180px; height: auto; }
 }
 
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
