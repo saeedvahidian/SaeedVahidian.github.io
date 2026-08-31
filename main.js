@@ -36,7 +36,7 @@ filterButtons.forEach((button) => {
 // Add the compact purple venue badges used in the reference design.
 const venueBadges = [
   ['ICML', 'ICML'], ['WACV', 'WACV'], ['ICLR', 'ICLR'], ['JMLR', 'JMLR'], ['CVPR', 'CVPR'],
-  ['ICASSP', 'ICASSP'], ['ECCV', 'ECCV'], ['ICCV', 'ICCV'], ['AAAI', 'AAAI'],
+  ['ICASSP', 'ICASSP'], ['ECCV', 'ECCV'], ['ICCV', 'ICCV'], ['NeurIPS', 'NeurIPS'], ['AAAI', 'AAAI'],
   ['IROS', 'IROS'], ['UAI', 'UAI'], ['ICDCS', 'ICDCS'], ['IEEE', 'IEEE']
 ];
 
@@ -44,7 +44,7 @@ publications.forEach((publication) => {
   const venue = publication.querySelector('.venue')?.textContent || '';
   const title = publication.querySelector('h3');
   const match = venueBadges.find(([needle]) => venue.includes(needle));
-  if (title && match) {
+  if (title && match && !title.querySelector('.pub-abbr')) {
     const badge = document.createElement('span');
     badge.className = 'pub-abbr';
     badge.textContent = match[1];
