@@ -35,7 +35,7 @@ filterButtons.forEach((button) => {
 
 // Add the compact purple venue badges used in the reference design.
 const venueBadges = [
-  ['ICML', 'ICML'], ['ICLR', 'ICLR'], ['JMLR', 'JMLR'], ['CVPR', 'CVPR'],
+  ['ICML', 'ICML'], ['WACV', 'WACV'], ['ICLR', 'ICLR'], ['JMLR', 'JMLR'], ['CVPR', 'CVPR'],
   ['ICASSP', 'ICASSP'], ['ECCV', 'ECCV'], ['ICCV', 'ICCV'], ['AAAI', 'AAAI'],
   ['IROS', 'IROS'], ['UAI', 'UAI'], ['ICDCS', 'ICDCS'], ['IEEE', 'IEEE']
 ];
