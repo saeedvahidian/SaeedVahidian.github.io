@@ -84,8 +84,8 @@ li { margin-bottom: .35rem; }
 .publication-list { display: block; }
 .publication { display: flex; gap: 1rem; align-items: flex-start; margin-bottom: 1.5rem; padding: 0; border: 0; }
 .publication[hidden] { display: none; }
-.publication-image { width: 180px; height: 140px; flex-shrink: 0; object-fit: contain; object-position: center; display: block; border-radius: var(--radius); background: #f7f7f7; border: 0; }
-.publication-placeholder { min-height: 120px; display: flex; align-items: center; justify-content: center; background: var(--accent-light); color: var(--accent); font-size: 1.25rem; font-weight: 700; letter-spacing: .08em; }
+.publication-image { width: 180px; height: 140px; flex-shrink: 0; object-fit: contain; object-position: center; display: block; border-radius: var(--radius); background: transparent; border: 0; }
+.publication-placeholder { min-height: 120px; display: flex; align-items: center; justify-content: center; background: transparent; color: var(--accent); font-size: 1.25rem; font-weight: 700; letter-spacing: .08em; }
 .publication > div { flex: 1; }
 .publication h3 { font-weight: 600; margin-bottom: .15rem; font-size: 1rem; color: var(--text); }
 .authors { font-size: .85rem; color: var(--text-muted); margin-bottom: .15rem; }
@@ -105,7 +105,7 @@ li { margin-bottom: .35rem; }
 .talks-list { padding-left: 1.25rem; }
 
 .patent-card { display: flex; gap: 1rem; align-items: flex-start; margin-bottom: 1.5rem; }
-.patent-card img { width: 180px; height: 120px; object-fit: contain; flex-shrink: 0; border-radius: var(--radius); background: #f5f7ff; }
+.patent-card img { width: 180px; height: 120px; object-fit: contain; flex-shrink: 0; border-radius: var(--radius); background: transparent; }
 .patent-card h3 { margin-top: .55rem; }
 .patent-card p { margin-bottom: .35rem; }
 
