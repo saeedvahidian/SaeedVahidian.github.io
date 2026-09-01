@@ -119,6 +119,9 @@ li { margin-bottom: .35rem; }
 .openings-panel > div + div { margin-top: 1rem; }
 .openings-panel h3 { font-size: 1.15rem; margin-bottom: .5rem; }
 .openings-panel p { margin-bottom: .5rem; }
+.application-instructions ul { margin: .4rem 0 .75rem 1.2rem; }
+.application-instructions li { margin-bottom: .55rem; }
+.application-instructions small { color: var(--muted); }
 .apply-button { display: inline-block; margin-top: .75rem; background: none; border: 1px solid var(--accent); color: var(--accent); padding: .35rem 1rem; border-radius: var(--radius); cursor: pointer; font-family: inherit; font-size: .85rem; }
 .apply-button:hover { background: var(--accent); color: #fff; text-decoration: none; }
 .site-footer { text-align: center; padding: 2rem 1.25rem; font-size: .8rem; color: var(--text-muted); border-top: 1px solid var(--border); }
