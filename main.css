@@ -40,7 +40,7 @@ li { margin-bottom: .35rem; }
 .section-intro { max-width: none; margin: 0 0 1rem; color: var(--text-muted); }
 .hero { display: flex; gap: 2rem; align-items: flex-start; padding-top: 2.5rem; padding-bottom: 1.25rem; }
 .profile { flex-shrink: 0; }
-.portrait { width: 200px; height: auto; display: block; border-radius: var(--radius); }
+.portrait { width: 400px; height: auto; display: block; border-radius: var(--radius); }
 .bio { flex: 1; }
 .eyebrow { display: none; }
 .title { color: var(--text-muted); margin-bottom: .75rem; font-size: .95rem; }
@@ -130,7 +130,7 @@ li { margin-bottom: .35rem; }
 
 @media (max-width: 768px) {
   .hero { flex-direction: column; align-items: center; text-align: center; }
-  .portrait { width: 160px; }
+  .portrait { width: 320px; }
   .profile-links { justify-content: center; }
   .menu-button { display: block; }
   .site-nav { display: none; flex-direction: column; position: absolute; top: var(--nav-height); left: 0; right: 0; background: var(--bg); border-bottom: 1px solid var(--border); padding: 1rem 1.25rem; gap: .75rem; align-items: flex-start; }
