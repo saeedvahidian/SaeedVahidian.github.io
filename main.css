@@ -51,6 +51,7 @@ li { margin-bottom: .35rem; }
 .profile-links svg { width: 22px; height: 22px; }
 .hero-opening { margin-top: .75rem; }
 .recruitment { margin-top: 1.25rem; padding: 1rem; background: var(--accent-light); border-radius: var(--radius); }
+.recruitment-note { margin-top: .65rem; color: #b42318; font-size: .9rem; }
 
 .news-list { list-style: none; padding: 0; max-height: 800px; overflow-y: auto; }
 .news-list li { display: flex; gap: .75rem; margin-bottom: .5rem; align-items: baseline; border: 0; padding: 0; }
